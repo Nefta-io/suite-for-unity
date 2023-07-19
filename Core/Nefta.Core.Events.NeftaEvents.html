@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
       <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-      <title>Class AuthorizationHelper
+      <title>Class NeftaEvents
  | Nefta SDK </title>
       <meta name="viewport" content="width=device-width">
-      <meta name="title" content="Class AuthorizationHelper
+      <meta name="title" content="Class NeftaEvents
  | Nefta SDK ">
     
       <link rel="shortcut icon" href="../favicon.ico">
@@ -67,18 +67,18 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="Nefta.ToolboxSdk.Authorization.AuthorizationHelper">
+            <article class="content wrap" id="_content" data-uid="Nefta.Core.Events.NeftaEvents">
 
 
 
-  <h1 id="Nefta_ToolboxSdk_Authorization_AuthorizationHelper" data-uid="Nefta.ToolboxSdk.Authorization.AuthorizationHelper" class="text-break">Class AuthorizationHelper
+  <h1 id="Nefta_Core_Events_NeftaEvents" data-uid="Nefta.Core.Events.NeftaEvents" class="text-break">Class NeftaEvents
 </h1>
   <div class="markdown level0 summary"></div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
-    <div class="level1"><span class="xref">AuthorizationHelper</span></div>
+    <div class="level1"><span class="xref">NeftaEvents</span></div>
   </div>
   <div class="inheritedMembers">
     <h5>Inherited Members</h5>
@@ -104,37 +104,34 @@
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.tostring">object.ToString()</a>
     </div>
   </div>
-  <h6><strong>Namespace</strong>: <a class="xref" href="Nefta.html">Nefta</a>.<a class="xref" href="Nefta.ToolboxSdk.html">ToolboxSdk</a>.<a class="xref" href="Nefta.ToolboxSdk.Authorization.html">Authorization</a></h6>
-  <h6><strong>Assembly</strong>: Nefta.ToolboxSdk.dll</h6>
-  <h5 id="Nefta_ToolboxSdk_Authorization_AuthorizationHelper_syntax">Syntax</h5>
+  <h6><strong>Namespace</strong>: <a class="xref" href="Nefta.html">Nefta</a>.<a class="xref" href="Nefta.Core.html">Core</a>.<a class="xref" href="Nefta.Core.Events.html">Events</a></h6>
+  <h6><strong>Assembly</strong>: Nefta.Core.dll</h6>
+  <h5 id="Nefta_Core_Events_NeftaEvents_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class AuthorizationHelper</code></pre>
+    <pre><code class="lang-csharp hljs">public class NeftaEvents</code></pre>
   </div>
-  <h3 id="constructors">Constructors
+  <h3 id="fields">Fields
 </h3>
 
 
-  <a id="Nefta_ToolboxSdk_Authorization_AuthorizationHelper__ctor_" data-uid="Nefta.ToolboxSdk.Authorization.AuthorizationHelper.#ctor*"></a>
-  <h4 id="Nefta_ToolboxSdk_Authorization_AuthorizationHelper__ctor_Nefta_ToolboxSdk_Toolbox_" data-uid="Nefta.ToolboxSdk.Authorization.AuthorizationHelper.#ctor(Nefta.ToolboxSdk.Toolbox)">AuthorizationHelper(Toolbox)</h4>
+  <h4 id="Nefta_Core_Events_NeftaEvents_Instance" data-uid="Nefta.Core.Events.NeftaEvents.Instance">Instance</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public AuthorizationHelper(Toolbox toolbox)</code></pre>
+    <pre><code class="lang-csharp hljs">public static NeftaEvents Instance</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
+  <h5 class="fieldValue">Field Value</h5>
   <table class="table table-bordered table-condensed">
     <thead>
       <tr>
         <th>Type</th>
-        <th>Name</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="Nefta.ToolboxSdk.Toolbox.html">Toolbox</a></td>
-        <td><span class="parametername">toolbox</span></td>
+        <td><a class="xref" href="Nefta.Core.Events.NeftaEvents.html">NeftaEvents</a></td>
         <td></td>
       </tr>
     </tbody>
@@ -143,14 +140,14 @@
 </h3>
 
 
-  <a id="Nefta_ToolboxSdk_Authorization_AuthorizationHelper_GuestFullSignup_" data-uid="Nefta.ToolboxSdk.Authorization.AuthorizationHelper.GuestFullSignup*"></a>
-  <h4 id="Nefta_ToolboxSdk_Authorization_AuthorizationHelper_GuestFullSignup_System_String_System_Action_System_Boolean__" data-uid="Nefta.ToolboxSdk.Authorization.AuthorizationHelper.GuestFullSignup(System.String,System.Action{System.Boolean})">GuestFullSignup(string, Action&lt;bool&gt;)</h4>
-  <div class="markdown level1 summary"><p>Converts guest into full user. This will send an email with confirmation code to the gamer</p>
+  <a id="Nefta_Core_Events_NeftaEvents_Enable_" data-uid="Nefta.Core.Events.NeftaEvents.Enable*"></a>
+  <h4 id="Nefta_Core_Events_NeftaEvents_Enable_System_Boolean_" data-uid="Nefta.Core.Events.NeftaEvents.Enable(System.Boolean)">Enable(bool)</h4>
+  <div class="markdown level1 summary"><p>Call this function to enable or disable tracking of the analytic events</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void GuestFullSignup(string email, Action&lt;bool&gt; onSignUp)</code></pre>
+    <pre><code class="lang-csharp hljs">public static void Enable(bool enable)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-condensed">
@@ -163,28 +160,62 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
-        <td><span class="parametername">email</span></td>
-        <td><p>Gamer email</p>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></td>
+        <td><span class="parametername">enable</span></td>
+        <td><p>True to enable and False to disable</p>
 </td>
       </tr>
+    </tbody>
+  </table>
+
+
+  <a id="Nefta_Core_Events_NeftaEvents_GetFormatter_" data-uid="Nefta.Core.Events.NeftaEvents.GetFormatter*"></a>
+  <h4 id="Nefta_Core_Events_NeftaEvents_GetFormatter__1" data-uid="Nefta.Core.Events.NeftaEvents.GetFormatter``1">GetFormatter&lt;T&gt;()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IJsonFormatter&lt;T&gt; GetFormatter&lt;T&gt;()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
       <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.action-1">Action</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a>&gt;</td>
-        <td><span class="parametername">onSignUp</span></td>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Utf8Json.IJsonFormatter-1.html">IJsonFormatter</a>&lt;T&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T</span></td>
         <td></td>
       </tr>
     </tbody>
   </table>
 
 
-  <a id="Nefta_ToolboxSdk_Authorization_AuthorizationHelper_RequestLoginCode_" data-uid="Nefta.ToolboxSdk.Authorization.AuthorizationHelper.RequestLoginCode*"></a>
-  <h4 id="Nefta_ToolboxSdk_Authorization_AuthorizationHelper_RequestLoginCode_System_String_System_Action_System_Boolean__" data-uid="Nefta.ToolboxSdk.Authorization.AuthorizationHelper.RequestLoginCode(System.String,System.Action{System.Boolean})">RequestLoginCode(string, Action&lt;bool&gt;)</h4>
-  <div class="markdown level1 summary"><p>Request a login code by given email.</p>
-</div>
+  <a id="Nefta_Core_Events_NeftaEvents_Record_" data-uid="Nefta.Core.Events.NeftaEvents.Record*"></a>
+  <h4 id="Nefta_Core_Events_NeftaEvents_Record_Nefta_Core_Events_InterestEvent_" data-uid="Nefta.Core.Events.NeftaEvents.Record(Nefta.Core.Events.InterestEvent)">Record(InterestEvent)</h4>
+  <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void RequestLoginCode(string email, Action&lt;bool&gt; onRequestLoginCode)</code></pre>
+    <pre><code class="lang-csharp hljs">public static void Record(InterestEvent interestEvent)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-condensed">
@@ -197,27 +228,21 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
-        <td><span class="parametername">email</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.action-1">Action</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a>&gt;</td>
-        <td><span class="parametername">onRequestLoginCode</span></td>
+        <td><a class="xref" href="Nefta.Core.Events.InterestEvent.html">InterestEvent</a></td>
+        <td><span class="parametername">interestEvent</span></td>
         <td></td>
       </tr>
     </tbody>
   </table>
 
 
-  <a id="Nefta_ToolboxSdk_Authorization_AuthorizationHelper_SignUpGamer_" data-uid="Nefta.ToolboxSdk.Authorization.AuthorizationHelper.SignUpGamer*"></a>
-  <h4 id="Nefta_ToolboxSdk_Authorization_AuthorizationHelper_SignUpGamer_System_String_System_String_System_String_System_Action_System_Boolean__" data-uid="Nefta.ToolboxSdk.Authorization.AuthorizationHelper.SignUpGamer(System.String,System.String,System.String,System.Action{System.Boolean})">SignUpGamer(string, string, string, Action&lt;bool&gt;)</h4>
-  <div class="markdown level1 summary"><p>Creates a full user with the given email and name.</p>
-</div>
+  <a id="Nefta_Core_Events_NeftaEvents_Serialize_" data-uid="Nefta.Core.Events.NeftaEvents.Serialize*"></a>
+  <h4 id="Nefta_Core_Events_NeftaEvents_Serialize__1___0_" data-uid="Nefta.Core.Events.NeftaEvents.Serialize``1(``0)">Serialize&lt;T&gt;(T)</h4>
+  <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void SignUpGamer(string email, string username, string wallet, Action&lt;bool&gt; onSignUpGamer)</code></pre>
+    <pre><code class="lang-csharp hljs">public byte[] Serialize&lt;T&gt;(T body)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-condensed">
@@ -230,23 +255,38 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
-        <td><span class="parametername">email</span></td>
+        <td><span class="xref">T</span></td>
+        <td><span class="parametername">body</span></td>
         <td></td>
       </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
       <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
-        <td><span class="parametername">username</span></td>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a>[]</td>
         <td></td>
       </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
       <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
-        <td><span class="parametername">wallet</span></td>
-        <td></td>
+        <th>Name</th>
+        <th>Description</th>
       </tr>
+    </thead>
+    <tbody>
       <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.action-1">Action</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a>&gt;</td>
-        <td><span class="parametername">onSignUpGamer</span></td>
+        <td><span class="parametername">T</span></td>
         <td></td>
       </tr>
     </tbody>

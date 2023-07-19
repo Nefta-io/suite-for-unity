@@ -5,18 +5,16 @@
   <head>
     <meta charset="utf-8">
       <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-      <title>Namespace Nefta.ToolboxSdk.Authorization
- | Nefta SDK </title>
+      <title>Requirements | Nefta SDK </title>
       <meta name="viewport" content="width=device-width">
-      <meta name="title" content="Namespace Nefta.ToolboxSdk.Authorization
- | Nefta SDK ">
+      <meta name="title" content="Requirements | Nefta SDK ">
     
       <link rel="shortcut icon" href="../favicon.ico">
       <link rel="stylesheet" href="../styles/docfx.vendor.min.css">
       <link rel="stylesheet" href="../styles/docfx.css">
       <link rel="stylesheet" href="../styles/main.css">
       <meta property="docfx:navrel" content="../toc.html">
-      <meta property="docfx:tocrel" content="toc.html">
+      <meta property="docfx:tocrel" content="../toc.html">
     
     
     
@@ -58,43 +56,30 @@
         </div>
       </header>
       <div role="main" class="container body-content hide-when-search">
-
-        <div class="sidenav hide-when-search">
-          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
-          <div class="sidetoggle collapse" id="sidetoggle">
-            <div id="sidetoc"></div>
-          </div>
-        </div>
-        <div class="article row grid-right">
+        <div class="article row grid">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="Nefta.ToolboxSdk.Authorization">
+            <article class="content wrap" id="_content" data-uid="">
+<h2 id="requirements">Requirements</h2>
 
-  <h1 id="Nefta_ToolboxSdk_Authorization" data-uid="Nefta.ToolboxSdk.Authorization" class="text-break">Namespace Nefta.ToolboxSdk.Authorization
-</h1>
-  <div class="markdown level0 summary"></div>
-  <div class="markdown level0 conceptual"></div>
-  <div class="markdown level0 remarks"></div>
-    <h3 id="classes">
-Classes
-</h3>
-      <h4><a class="xref" href="Nefta.ToolboxSdk.Authorization.AuthorizationHelper.html">AuthorizationHelper</a></h4>
-      <section></section>
-      <h4><a class="xref" href="Nefta.ToolboxSdk.Authorization.ConfirmGamerAccountWithEmailCode.html">ConfirmGamerAccountWithEmailCode</a></h4>
-      <section></section>
-      <h4><a class="xref" href="Nefta.ToolboxSdk.Authorization.ConvertGuestToFullUserRequest.html">ConvertGuestToFullUserRequest</a></h4>
-      <section></section>
-      <h4><a class="xref" href="Nefta.ToolboxSdk.Authorization.LoginWithConfirmationCodeRequest.html">LoginWithConfirmationCodeRequest</a></h4>
-      <section></section>
-      <h4><a class="xref" href="Nefta.ToolboxSdk.Authorization.LoginWithWalletRequest.html">LoginWithWalletRequest</a></h4>
-      <section></section>
-      <h4><a class="xref" href="Nefta.ToolboxSdk.Authorization.RequestLoginCodeRequest.html">RequestLoginCodeRequest</a></h4>
-      <section></section>
-      <h4><a class="xref" href="Nefta.ToolboxSdk.Authorization.SignUpGamerRequest.html">SignUpGamerRequest</a></h4>
-      <section></section>
-      <h4><a class="xref" href="Nefta.ToolboxSdk.Authorization.SignupGuestUserRequest.html">SignupGuestUserRequest</a></h4>
-      <section></section>
-
-
+<p>Unity 2020.3 or higher</p>
+<h2 id="supported-platforms">Supported platforms</h2>
+<p>IOS/Android/Win Standalone/MacOS Standalone</p>
+<h2 id="usage">Usage</h2>
+<p>In order to start using Nefta SDK, you have to first initialize it with:</p>
+<pre><code>NeftaCore.Init();
+</code></pre>
+<h2 id="events">Events</h2>
+<p>Events modules are then available out of the box. In case you want to change that, you can disable it with:</p>
+<pre><code>NeftaEvents.Enable(false);
+</code></pre>
+<p>Session events are being recorded automatically. For other game events you have to manually record that, for example:</p>
+<pre><code>NeftaEvents.Record(new ReceiveEvent({ _name = &quot;diamonds&quot;, _category = Category.SoftCurrency });
+</code></pre>
+<h2 id="documentation">Documentation</h2>
+<p>You can find online documentation for the NeftaToolboxSDK here: <a href="https://docs.nefta.io/docs/neftaunity-sdk">https://docs.nefta.io/docs/neftaunity-sdk</a></p>
+<p>The Core SDK API reference can be found here: <a href="https://nefta-io.github.io/suite-for-unity/Core/Nefta.Core.html">https://nefta-io.github.io/suite-for-unity/Core/Nefta.Core.html</a></p>
+<h2 id="support">Support</h2>
+<p>If you need help or have any questions about the Unity Package, please feel free to reach out to the development team by email at support@Nefta.io. We will do our best to assist you and resolve any issues as quickly as possible.</p>
 </article>
           </div>
 

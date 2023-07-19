@@ -5,11 +5,9 @@
   <head>
     <meta charset="utf-8">
       <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-      <title>Namespace Nefta.ToolboxSdk.Authorization
- | Nefta SDK </title>
+      <title>Introduction | Nefta SDK </title>
       <meta name="viewport" content="width=device-width">
-      <meta name="title" content="Namespace Nefta.ToolboxSdk.Authorization
- | Nefta SDK ">
+      <meta name="title" content="Introduction | Nefta SDK ">
     
       <link rel="shortcut icon" href="../favicon.ico">
       <link rel="stylesheet" href="../styles/docfx.vendor.min.css">
@@ -67,34 +65,78 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="Nefta.ToolboxSdk.Authorization">
+            <article class="content wrap" id="_content" data-uid="">
+<h1 id="introduction">Introduction</h1>
 
-  <h1 id="Nefta_ToolboxSdk_Authorization" data-uid="Nefta.ToolboxSdk.Authorization" class="text-break">Namespace Nefta.ToolboxSdk.Authorization
-</h1>
-  <div class="markdown level0 summary"></div>
-  <div class="markdown level0 conceptual"></div>
-  <div class="markdown level0 remarks"></div>
-    <h3 id="classes">
-Classes
-</h3>
-      <h4><a class="xref" href="Nefta.ToolboxSdk.Authorization.AuthorizationHelper.html">AuthorizationHelper</a></h4>
-      <section></section>
-      <h4><a class="xref" href="Nefta.ToolboxSdk.Authorization.ConfirmGamerAccountWithEmailCode.html">ConfirmGamerAccountWithEmailCode</a></h4>
-      <section></section>
-      <h4><a class="xref" href="Nefta.ToolboxSdk.Authorization.ConvertGuestToFullUserRequest.html">ConvertGuestToFullUserRequest</a></h4>
-      <section></section>
-      <h4><a class="xref" href="Nefta.ToolboxSdk.Authorization.LoginWithConfirmationCodeRequest.html">LoginWithConfirmationCodeRequest</a></h4>
-      <section></section>
-      <h4><a class="xref" href="Nefta.ToolboxSdk.Authorization.LoginWithWalletRequest.html">LoginWithWalletRequest</a></h4>
-      <section></section>
-      <h4><a class="xref" href="Nefta.ToolboxSdk.Authorization.RequestLoginCodeRequest.html">RequestLoginCodeRequest</a></h4>
-      <section></section>
-      <h4><a class="xref" href="Nefta.ToolboxSdk.Authorization.SignUpGamerRequest.html">SignUpGamerRequest</a></h4>
-      <section></section>
-      <h4><a class="xref" href="Nefta.ToolboxSdk.Authorization.SignupGuestUserRequest.html">SignupGuestUserRequest</a></h4>
-      <section></section>
+<p>Welcome to the Nefta Ad Unity Package! The purpose of this package is to simplify ad integration into your app to monetize it.</p>
+<h2 id="requirements">Requirements</h2>
+<p>Unity 2020.3 or later</p>
+<h2 id="supported-platforms">Supported platforms</h2>
+<p>IOS/Android/Win Standalone/MacOS Standalone</p>
+<h3 id="getting-started">Getting started</h3>
+<ul>
+<li><p>The first step is to initialize Nefta Ad Manager. If you don't, the SDK won't do anything on its own and it won't waste any of the device resources.</p>
+<pre><code>AdManager.Init();
+</code></pre>
+</li>
+<li><p>Then you also need to call Update on each frame. With this, you have absolute control over the order of various ad-related events:</p>
+<pre><code>AdManager.Instance.Update();
+</code></pre>
+<p>All ad showing/closing and callbacks will happen here. So all calls to show/hide ads after the Update will be scheduled for the next frame.</p>
+</li>
+</ul>
+<h3 id="loading-ad-placement">Loading Ad Placement</h3>
+<ul>
+<li><p>You request an ad for a specific placement, defined in the dashboard, as follows:</p>
+<pre><code>AdManager.Instance.LoadAd(_bannerPlacement1);
+</code></pre>
+<ul>
+<li>After which either success or failure callback is called:
+<pre><code>AdManager.Instance._onLoad(adPlacement);
+AdManager.Instance._onLoadFail(adPlacement, AdPlacement.LoadFailReason);
+</code></pre>
+You also have two methods, to check if an ad opportunity is available for your placement and the amount you will earn for showing it:
+<pre><code>AdManager.Instance.IsAdAvailable(_bannerPlacement1);
 
-
+AdManager.Instance.GetAvailableAdPrice(_bannerPlacement1);
+</code></pre>
+</li>
+</ul>
+</li>
+</ul>
+<h3 id="showing-of-ad-placement">Showing of Ad Placement</h3>
+<ul>
+<li>When you want to show specific loaded ad placement you call:
+<pre><code>AdManager.Instance.ShowAd(_interstitialPlacement1);
+</code></pre>
+<ul>
+<li>When the ad is shown the following callback is invoked:
+<pre><code>AdManager.Instance._onShow(adPlacement);
+</code></pre>
+</li>
+</ul>
+</li>
+</ul>
+<h3 id="closing-placements">Closing placements</h3>
+<ul>
+<li><p>You can close an ad at any time by calling:</p>
+<pre><code>AdManager.Instance.Close(adPlacement);
+</code></pre>
+<p>The player can also close interstitial or rewarded videos by pressing either the x button or back button on Android or the Escape in keyboard input is present.</p>
+<ul>
+<li><p>When the ad is closed, the following callback is fired:</p>
+<pre><code>AdManager.Instance._onClose(adPlacement);
+</code></pre>
+</li>
+<li><p>In the case of rewarded video, if the video was watched till the end the rewarded callback is also fired:</p>
+<pre><code>AdManager.Instance._onUserRewarded(adPlacement);
+</code></pre>
+</li>
+</ul>
+</li>
+</ul>
+<h2 id="demo-sample">Demo sample</h2>
+<p>Feel free to check out AdDemo for an integration example.</p>
 </article>
           </div>
 

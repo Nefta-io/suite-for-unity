@@ -45,360 +45,20 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "AdSdk/Nefta.AdSdk.Data.AdditionalData.yml",
-      "output": {
-        ".html": {
-          "relative_path": "AdSdk/Nefta.AdSdk.Data.AdditionalData.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "AdSdk/Nefta.AdSdk.Data.Application.yml",
-      "output": {
-        ".html": {
-          "relative_path": "AdSdk/Nefta.AdSdk.Data.Application.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "AdSdk/Nefta.AdSdk.Data.Banner.yml",
-      "output": {
-        ".html": {
-          "relative_path": "AdSdk/Nefta.AdSdk.Data.Banner.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "AdSdk/Nefta.AdSdk.Data.Bid.yml",
-      "output": {
-        ".html": {
-          "relative_path": "AdSdk/Nefta.AdSdk.Data.Bid.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "AdSdk/Nefta.AdSdk.Data.BidExt.yml",
-      "output": {
-        ".html": {
-          "relative_path": "AdSdk/Nefta.AdSdk.Data.BidExt.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "AdSdk/Nefta.AdSdk.Data.BidExtNefta.yml",
-      "output": {
-        ".html": {
-          "relative_path": "AdSdk/Nefta.AdSdk.Data.BidExtNefta.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "AdSdk/Nefta.AdSdk.Data.BidRequest.yml",
-      "output": {
-        ".html": {
-          "relative_path": "AdSdk/Nefta.AdSdk.Data.BidRequest.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "AdSdk/Nefta.AdSdk.Data.BidRequestExt.yml",
-      "output": {
-        ".html": {
-          "relative_path": "AdSdk/Nefta.AdSdk.Data.BidRequestExt.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "AdSdk/Nefta.AdSdk.Data.BidRequestExtNefta.yml",
-      "output": {
-        ".html": {
-          "relative_path": "AdSdk/Nefta.AdSdk.Data.BidRequestExtNefta.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "AdSdk/Nefta.AdSdk.Data.BidResponse.yml",
-      "output": {
-        ".html": {
-          "relative_path": "AdSdk/Nefta.AdSdk.Data.BidResponse.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "AdSdk/Nefta.AdSdk.Data.BidResponseExt.yml",
-      "output": {
-        ".html": {
-          "relative_path": "AdSdk/Nefta.AdSdk.Data.BidResponseExt.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "AdSdk/Nefta.AdSdk.Data.BidResponseExtNefta.yml",
-      "output": {
-        ".html": {
-          "relative_path": "AdSdk/Nefta.AdSdk.Data.BidResponseExtNefta.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "AdSdk/Nefta.AdSdk.Data.Consent.yml",
-      "output": {
-        ".html": {
-          "relative_path": "AdSdk/Nefta.AdSdk.Data.Consent.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "AdSdk/Nefta.AdSdk.Data.Content.yml",
-      "output": {
-        ".html": {
-          "relative_path": "AdSdk/Nefta.AdSdk.Data.Content.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "AdSdk/Nefta.AdSdk.Data.Device.yml",
-      "output": {
-        ".html": {
-          "relative_path": "AdSdk/Nefta.AdSdk.Data.Device.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "AdSdk/Nefta.AdSdk.Data.Ext.yml",
-      "output": {
-        ".html": {
-          "relative_path": "AdSdk/Nefta.AdSdk.Data.Ext.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "AdSdk/Nefta.AdSdk.Data.Format.yml",
-      "output": {
-        ".html": {
-          "relative_path": "AdSdk/Nefta.AdSdk.Data.Format.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "AdSdk/Nefta.AdSdk.Data.Geo.yml",
-      "output": {
-        ".html": {
-          "relative_path": "AdSdk/Nefta.AdSdk.Data.Geo.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "AdSdk/Nefta.AdSdk.Data.Impression.States.yml",
-      "output": {
-        ".html": {
-          "relative_path": "AdSdk/Nefta.AdSdk.Data.Impression.States.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "AdSdk/Nefta.AdSdk.Data.Impression.yml",
-      "output": {
-        ".html": {
-          "relative_path": "AdSdk/Nefta.AdSdk.Data.Impression.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "AdSdk/Nefta.AdSdk.Data.Metric.yml",
-      "output": {
-        ".html": {
-          "relative_path": "AdSdk/Nefta.AdSdk.Data.Metric.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "AdSdk/Nefta.AdSdk.Data.Native.yml",
-      "output": {
-        ".html": {
-          "relative_path": "AdSdk/Nefta.AdSdk.Data.Native.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "AdSdk/Nefta.AdSdk.Data.Producer.yml",
-      "output": {
-        ".html": {
-          "relative_path": "AdSdk/Nefta.AdSdk.Data.Producer.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "AdSdk/Nefta.AdSdk.Data.Publisher.yml",
-      "output": {
-        ".html": {
-          "relative_path": "AdSdk/Nefta.AdSdk.Data.Publisher.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "AdSdk/Nefta.AdSdk.Data.SeatBid.yml",
-      "output": {
-        ".html": {
-          "relative_path": "AdSdk/Nefta.AdSdk.Data.SeatBid.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "AdSdk/Nefta.AdSdk.Data.Site.yml",
-      "output": {
-        ".html": {
-          "relative_path": "AdSdk/Nefta.AdSdk.Data.Site.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "AdSdk/Nefta.AdSdk.Data.User.yml",
-      "output": {
-        ".html": {
-          "relative_path": "AdSdk/Nefta.AdSdk.Data.User.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "AdSdk/Nefta.AdSdk.Data.Vast.CompanionCreative.yml",
-      "output": {
-        ".html": {
-          "relative_path": "AdSdk/Nefta.AdSdk.Data.Vast.CompanionCreative.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "AdSdk/Nefta.AdSdk.Data.Vast.Creative.yml",
-      "output": {
-        ".html": {
-          "relative_path": "AdSdk/Nefta.AdSdk.Data.Vast.Creative.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "AdSdk/Nefta.AdSdk.Data.Vast.LinearCreative.yml",
-      "output": {
-        ".html": {
-          "relative_path": "AdSdk/Nefta.AdSdk.Data.Vast.LinearCreative.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "AdSdk/Nefta.AdSdk.Data.Vast.MediaFile.yml",
-      "output": {
-        ".html": {
-          "relative_path": "AdSdk/Nefta.AdSdk.Data.Vast.MediaFile.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "AdSdk/Nefta.AdSdk.Data.Vast.Vast.yml",
-      "output": {
-        ".html": {
-          "relative_path": "AdSdk/Nefta.AdSdk.Data.Vast.Vast.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "AdSdk/Nefta.AdSdk.Data.Vast.yml",
-      "output": {
-        ".html": {
-          "relative_path": "AdSdk/Nefta.AdSdk.Data.Vast.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "AdSdk/Nefta.AdSdk.Data.Video.yml",
-      "output": {
-        ".html": {
-          "relative_path": "AdSdk/Nefta.AdSdk.Data.Video.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "AdSdk/Nefta.AdSdk.Data.yml",
-      "output": {
-        ".html": {
-          "relative_path": "AdSdk/Nefta.AdSdk.Data.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
       "source_relative_path": "AdSdk/Nefta.AdSdk.ImpressionType.yml",
       "output": {
         ".html": {
           "relative_path": "AdSdk/Nefta.AdSdk.ImpressionType.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "AdSdk/Nefta.AdSdk.RestHelper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "AdSdk/Nefta.AdSdk.RestHelper.html"
         }
       },
       "version": ""
@@ -465,110 +125,180 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "CoreSdk/Nefta.Core.NeftaAnalytics.Category.yml",
+      "source_relative_path": "Core/Nefta.Core.Events.Category.yml",
       "output": {
         ".html": {
-          "relative_path": "CoreSdk/Nefta.Core.NeftaAnalytics.Category.html"
+          "relative_path": "Core/Nefta.Core.Events.Category.html"
         }
       },
       "version": ""
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "CoreSdk/Nefta.Core.NeftaAnalytics.Method.yml",
+      "source_relative_path": "Core/Nefta.Core.Events.InterestEvent.yml",
       "output": {
         ".html": {
-          "relative_path": "CoreSdk/Nefta.Core.NeftaAnalytics.Method.html"
+          "relative_path": "Core/Nefta.Core.Events.InterestEvent.html"
         }
       },
       "version": ""
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "CoreSdk/Nefta.Core.NeftaAnalytics.ProgressionSource.yml",
+      "source_relative_path": "Core/Nefta.Core.Events.NeftaEvents.yml",
       "output": {
         ".html": {
-          "relative_path": "CoreSdk/Nefta.Core.NeftaAnalytics.ProgressionSource.html"
+          "relative_path": "Core/Nefta.Core.Events.NeftaEvents.html"
         }
       },
       "version": ""
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "CoreSdk/Nefta.Core.NeftaAnalytics.ProgressionType.yml",
+      "source_relative_path": "Core/Nefta.Core.Events.ProgressionEvent.yml",
       "output": {
         ".html": {
-          "relative_path": "CoreSdk/Nefta.Core.NeftaAnalytics.ProgressionType.html"
+          "relative_path": "Core/Nefta.Core.Events.ProgressionEvent.html"
         }
       },
       "version": ""
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "CoreSdk/Nefta.Core.NeftaAnalytics.Status.yml",
+      "source_relative_path": "Core/Nefta.Core.Events.ReceiveEvent.yml",
       "output": {
         ".html": {
-          "relative_path": "CoreSdk/Nefta.Core.NeftaAnalytics.Status.html"
+          "relative_path": "Core/Nefta.Core.Events.ReceiveEvent.html"
         }
       },
       "version": ""
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "CoreSdk/Nefta.Core.NeftaAnalytics.yml",
+      "source_relative_path": "Core/Nefta.Core.Events.ReceiveMethod.yml",
       "output": {
         ".html": {
-          "relative_path": "CoreSdk/Nefta.Core.NeftaAnalytics.html"
+          "relative_path": "Core/Nefta.Core.Events.ReceiveMethod.html"
         }
       },
       "version": ""
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "CoreSdk/Nefta.Core.NeftaCore.yml",
+      "source_relative_path": "Core/Nefta.Core.Events.RecordedEvent.yml",
       "output": {
         ".html": {
-          "relative_path": "CoreSdk/Nefta.Core.NeftaCore.html"
+          "relative_path": "Core/Nefta.Core.Events.RecordedEvent.html"
         }
       },
       "version": ""
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "CoreSdk/Nefta.Core.NeftaUser.yml",
+      "source_relative_path": "Core/Nefta.Core.Events.SessionEvent.yml",
       "output": {
         ".html": {
-          "relative_path": "CoreSdk/Nefta.Core.NeftaUser.html"
+          "relative_path": "Core/Nefta.Core.Events.SessionEvent.html"
         }
       },
       "version": ""
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "CoreSdk/Nefta.Core.yml",
+      "source_relative_path": "Core/Nefta.Core.Events.Source.yml",
       "output": {
         ".html": {
-          "relative_path": "CoreSdk/Nefta.Core.html"
+          "relative_path": "Core/Nefta.Core.Events.Source.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Core/Nefta.Core.Events.SpendEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Core/Nefta.Core.Events.SpendEvent.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Core/Nefta.Core.Events.SpendMethod.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Core/Nefta.Core.Events.SpendMethod.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Core/Nefta.Core.Events.Status.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Core/Nefta.Core.Events.Status.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Core/Nefta.Core.Events.Type.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Core/Nefta.Core.Events.Type.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Core/Nefta.Core.Events.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Core/Nefta.Core.Events.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Core/Nefta.Core.NeftaUser.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Core/Nefta.Core.NeftaUser.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Core/Nefta.Core.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Core/Nefta.Core.html"
         }
       },
       "version": ""
     },
     {
       "type": "Conceptual",
-      "source_relative_path": "CoreSdk/index.md",
+      "source_relative_path": "Core/index.md",
       "output": {
         ".html": {
-          "relative_path": "CoreSdk/index.html"
+          "relative_path": "Core/index.html"
         }
       },
       "version": ""
     },
     {
       "type": "Toc",
-      "source_relative_path": "CoreSdk/toc.yml",
+      "source_relative_path": "Core/toc.yml",
       "output": {
         ".html": {
-          "relative_path": "CoreSdk/toc.html"
+          "relative_path": "Core/toc.html"
         }
       },
       "version": ""
@@ -695,6 +425,36 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "ToolboxSdk/Nefta.ToolboxSdk.Authorization.AuthProviders.MetaMaskDecryptedMessage.yml",
+      "output": {
+        ".html": {
+          "relative_path": "ToolboxSdk/Nefta.ToolboxSdk.Authorization.AuthProviders.MetaMaskDecryptedMessage.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "ToolboxSdk/Nefta.ToolboxSdk.Authorization.AuthProviders.MetaMaskDecryptedMessageData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "ToolboxSdk/Nefta.ToolboxSdk.Authorization.AuthProviders.MetaMaskDecryptedMessageData.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "ToolboxSdk/Nefta.ToolboxSdk.Authorization.AuthProviders.MetaMaskResponseMessage.yml",
+      "output": {
+        ".html": {
+          "relative_path": "ToolboxSdk/Nefta.ToolboxSdk.Authorization.AuthProviders.MetaMaskResponseMessage.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "ToolboxSdk/Nefta.ToolboxSdk.Authorization.AuthProviders.TwitchProvider.yml",
       "output": {
         ".html": {
@@ -749,6 +509,16 @@
       "output": {
         ".html": {
           "relative_path": "ToolboxSdk/Nefta.ToolboxSdk.Authorization.LoginWithConfirmationCodeRequest.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "ToolboxSdk/Nefta.ToolboxSdk.Authorization.LoginWithWalletRequest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "ToolboxSdk/Nefta.ToolboxSdk.Authorization.LoginWithWalletRequest.html"
         }
       },
       "version": ""
@@ -1025,6 +795,36 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "ToolboxSdk/Nefta.ToolboxSdk.ToolboxConfiguration.OAuthProvider.Providers.yml",
+      "output": {
+        ".html": {
+          "relative_path": "ToolboxSdk/Nefta.ToolboxSdk.ToolboxConfiguration.OAuthProvider.Providers.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "ToolboxSdk/Nefta.ToolboxSdk.ToolboxConfiguration.OAuthProvider.yml",
+      "output": {
+        ".html": {
+          "relative_path": "ToolboxSdk/Nefta.ToolboxSdk.ToolboxConfiguration.OAuthProvider.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "ToolboxSdk/Nefta.ToolboxSdk.ToolboxConfiguration.yml",
+      "output": {
+        ".html": {
+          "relative_path": "ToolboxSdk/Nefta.ToolboxSdk.ToolboxConfiguration.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "ToolboxSdk/Nefta.ToolboxSdk.yml",
       "output": {
         ".html": {
@@ -1035,10 +835,10 @@
     },
     {
       "type": "Conceptual",
-      "source_relative_path": "ToolboxSdk/index.md",
+      "source_relative_path": "ToolboxSdk/Readme.md",
       "output": {
         ".html": {
-          "relative_path": "ToolboxSdk/index.html"
+          "relative_path": "ToolboxSdk/Readme.html"
         }
       },
       "version": ""
@@ -1074,6 +874,9 @@
       "version": ""
     },
     {
+      "log_codes": [
+        "InvalidFileLink"
+      ],
       "type": "Conceptual",
       "source_relative_path": "index.md",
       "output": {
